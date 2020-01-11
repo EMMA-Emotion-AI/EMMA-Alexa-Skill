@@ -1,0 +1,39 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "EMMA AI",
+          "summary": "The official Alexa Skill for the EMMA A.I.",
+          "description": "The official Alexa Skill for the EMMA A.I.",
+          "examplePhrases": [
+            "Alexa, open emma ai"
+          ],
+          "keywords": []
+        },
+        "de-DE": {
+          "name": "EMMA AI",
+          "summary": "Der Offizielle Alexa Skill für die EMMA A.I.",
+          "description": "Der Offizielle Alexa Skill für die EMMA A.I.",
+          "examplePhrases": [
+            "Alexa, öffne EMMA AI"
+          ],
+          "keywords": []
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "EMMA-Alexa-Skill-URL"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
