@@ -1,0 +1,50 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "emma ai",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SetTextToAnalyseIntent",
+                    "slots": [],
+                    "samples": [
+                        "Ich möchte einen Satz analysieren lassen",
+                        "Ich möchte ein Wort analysieren lassen",
+                        "Ich möchte einen Satz auswerten lassen",
+                        "Ich möchte ein Wort auswerten lassen"
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "textAnswer",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        " {textAnswer}",
+                        "Text {textAnswer}",
+                        "Der text ist {textAnswer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
